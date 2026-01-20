@@ -4,6 +4,7 @@ Implements various digital filters for signal processing.
 """
 
 import math
+from collections import deque
 from typing import List, Optional
 
 
@@ -23,7 +24,7 @@ class MovingAverageFilter:
         if window_size < 1:
             raise ValueError("Window size must be at least 1")
         self.window_size = window_size
-        self.buffer: List[float] = []
+        self.buffer = deque(maxlen=window_size)
     
     def filter(self, value: float) -> float:
         """
@@ -36,8 +37,6 @@ class MovingAverageFilter:
             Filtered value
         """
         self.buffer.append(value)
-        if len(self.buffer) > self.window_size:
-            self.buffer.pop(0)
         return sum(self.buffer) / len(self.buffer)
     
     def reset(self):
