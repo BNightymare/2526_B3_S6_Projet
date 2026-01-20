@@ -8,7 +8,10 @@ un moteur avec retour d'encodeur.
 
 import sys
 import time
-sys.path.insert(0, '/home/runner/work/2526_B3_S6_Projet/2526_B3_S6_Projet')
+import os
+
+# Add parent directory to path for imports
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from asservi import Motor
 
