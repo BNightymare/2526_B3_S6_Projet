@@ -61,7 +61,9 @@
 - M2: 2.2 mm clearance, 3.8 mm counterbore
 - M3: 3.2 mm clearance, 5.5 mm counterbore
 - M4: 4.3 mm clearance, 7.0 mm counterbore
+- M5: 5.3 mm clearance, 8.5 mm counterbore
 - M6: 6.4 mm clearance, 10.0 mm counterbore
+- M8: 8.4 mm clearance, 13.0 mm counterbore
 
 ### 5. Structural Design
 
