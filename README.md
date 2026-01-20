@@ -194,9 +194,13 @@ from filtrage import LowPassFilter, HighPassFilter
 - **Samirtaza** - Développement
 - **Lucie913** - Développement
 
+Pour contribuer au projet, consultez [CONTRIBUTING.md](CONTRIBUTING.md).
+
 ## 📄 Licence
 
-Projet académique B3 S6 (2025-2026)
+Projet académique B3 S6 (2025-2026) - Licence MIT
+
+Voir [LICENSE](LICENSE) pour plus de détails.
 
 ## 🎓 Contexte Académique
 
