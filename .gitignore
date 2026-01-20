@@ -1,0 +1,98 @@
+# CAD Files
+*.bak
+*.old
+*~
+
+# Fusion 360
+*.f3d.lock
+*.autosave
+
+# SolidWorks
+*.SLDPRT.bak
+*.SLDASM.bak
+*.SLDDRW.bak
+*.SLDPRT~
+*.SLDASM~
+*.SLDDRW~
+~$*.SLDPRT
+~$*.SLDASM
+~$*.SLDDRW
+
+# Inventor
+*.ipj
+*.ipn
+*.ipt.bak
+*.iam.bak
+OldVersions/
+
+# AutoCAD
+*.dwl
+*.dwl2
+*.dwg.bak
+*.dxf.bak
+
+# FreeCAD
+*.FCStd1
+*.FCBak
+
+# CATIA
+*.CATBackup
+*.CATLog
+
+# OpenSCAD
+*.backup
+
+# Temporary CAD files
+*.tmp
+*.temp
+
+# Mesh generation temporary files
+*.msh~
+*.geo~
+
+# Manufacturing files (if not needed in repo)
+# Comment out if you want to track these
+# *.stl
+# *.step
+# *.stp
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build artifacts
+build/
+dist/
+
+# Documentation builds
+docs/_build/
+site/
+
+# Logs
+*.log
