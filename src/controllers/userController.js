@@ -44,7 +44,7 @@ const createUser = (req, res) => {
   }
   
   const newUser = {
-    id: users.length > 0 ? Math.max(...users.map(u => u.id)) + 1 : 1,
+    id: users.length > 0 ? Math.max(...users.map(u => u.id || 0)) + 1 : 1,
     name,
     email
   };

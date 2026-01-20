@@ -36,18 +36,35 @@ const getProductById = (req, res) => {
 const createProduct = (req, res) => {
   const { name, price, stock } = req.body;
   
-  if (!name || price === undefined || stock === undefined) {
+  if (!name || typeof price === 'undefined' || typeof stock === 'undefined') {
     return res.status(400).json({
       success: false,
       message: 'Les champs name, price et stock sont requis'
     });
   }
   
+  const parsedPrice = parseFloat(price);
+  const parsedStock = parseInt(stock, 10);
+  
+  if (isNaN(parsedPrice) || parsedPrice < 0) {
+    return res.status(400).json({
+      success: false,
+      message: 'Le prix doit être un nombre valide >= 0'
+    });
+  }
+  
+  if (isNaN(parsedStock) || parsedStock < 0) {
+    return res.status(400).json({
+      success: false,
+      message: 'Le stock doit être un nombre entier valide >= 0'
+    });
+  }
+  
   const newProduct = {
-    id: products.length > 0 ? Math.max(...products.map(p => p.id)) + 1 : 1,
+    id: products.length > 0 ? Math.max(...products.map(p => p.id || 0)) + 1 : 1,
     name,
-    price: parseFloat(price),
-    stock: parseInt(stock)
+    price: parsedPrice,
+    stock: parsedStock
   };
   
   products.push(newProduct);
@@ -73,8 +90,28 @@ const updateProduct = (req, res) => {
   }
   
   if (name) products[productIndex].name = name;
-  if (price !== undefined) products[productIndex].price = parseFloat(price);
-  if (stock !== undefined) products[productIndex].stock = parseInt(stock);
+  
+  if (typeof price !== 'undefined') {
+    const parsedPrice = parseFloat(price);
+    if (isNaN(parsedPrice) || parsedPrice < 0) {
+      return res.status(400).json({
+        success: false,
+        message: 'Le prix doit être un nombre valide >= 0'
+      });
+    }
+    products[productIndex].price = parsedPrice;
+  }
+  
+  if (typeof stock !== 'undefined') {
+    const parsedStock = parseInt(stock, 10);
+    if (isNaN(parsedStock) || parsedStock < 0) {
+      return res.status(400).json({
+        success: false,
+        message: 'Le stock doit être un nombre entier valide >= 0'
+      });
+    }
+    products[productIndex].stock = parsedStock;
+  }
   
   res.json({
     success: true,
