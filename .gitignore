@@ -1,0 +1,60 @@
+# PCB Design Files
+*.bak
+*.kicad_pcb-bak
+*.sch-bak
+*-cache.lib
+*-rescue.lib
+*.bck
+*.kicad_prl
+*.log
+
+# Eagle
+*.s#*
+*.b#*
+*.l#*
+*.pro
+
+# Altium
+History/
+__Previews/
+*.DBLib
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
