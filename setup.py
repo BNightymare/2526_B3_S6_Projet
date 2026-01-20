@@ -14,7 +14,8 @@ setup(
     description="Python project for B3 S6 course",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    packages=find_packages(),
+    package_dir={'': 'src'},
+    packages=find_packages(where='src'),
     classifiers=[
         "Programming Language :: Python :: 3",
         "Operating System :: OS Independent",
