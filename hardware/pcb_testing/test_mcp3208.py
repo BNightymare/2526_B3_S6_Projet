@@ -88,8 +88,7 @@ class MCP3208Tester:
             print(f"\n--- Channel {channel} ---")
             
             # Test GND
-            input(f"Connect channel {channel} to GND, then press Enter...")
-            input(f"Connecter canal {channel} à GND, puis appuyer sur Enter...")
+            input(f"Connect channel {channel} to GND / Connecter canal {channel} à GND, then press Enter / puis appuyer sur Enter...")
             
             values = [self.read_channel(channel) for _ in range(10)]
             avg_value = sum(values) / len(values)
@@ -104,8 +103,7 @@ class MCP3208Tester:
                 all_passed = False
             
             # Test VCC
-            input(f"Connect channel {channel} to 3.3V, then press Enter...")
-            input(f"Connecter canal {channel} à 3.3V, puis appuyer sur Enter...")
+            input(f"Connect channel {channel} to 3.3V / Connecter canal {channel} à 3.3V, then press Enter / puis appuyer sur Enter...")
             
             values = [self.read_channel(channel) for _ in range(10)]
             avg_value = sum(values) / len(values)
@@ -132,8 +130,7 @@ class MCP3208Tester:
         all_passed = True
         
         for v in test_voltages:
-            input(f"\nApply {v}V to channel {channel}, then press Enter...")
-            input(f"Appliquer {v}V au canal {channel}, puis appuyer sur Enter...")
+            input(f"\nApply {v}V to channel {channel} / Appliquer {v}V au canal {channel}, then press Enter / puis appuyer sur Enter...")
             
             # Read multiple times and average
             values = [self.read_channel(channel) for _ in range(20)]
@@ -154,10 +151,8 @@ class MCP3208Tester:
     
     def test_noise(self, channel=0, num_samples=100):
         """Test ADC noise / Tester le bruit de l'ADC"""
-        print(f"\nNoise test on channel {channel}")
-        print(f"Test de bruit sur le canal {channel}")
-        print("Connect channel to stable voltage (e.g., 1.65V using voltage divider)")
-        print("Connecter le canal à une tension stable (ex: 1.65V avec diviseur)")
+        print(f"\nNoise test on channel {channel} / Test de bruit sur le canal {channel}")
+        print("Connect channel to stable voltage (e.g., 1.65V) / Connecter le canal à une tension stable (ex: 1.65V)")
         input("Press Enter when ready / Appuyer sur Enter quand prêt...")
         
         # Collect samples
