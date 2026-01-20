@@ -1,2 +1,11 @@
-# Python dependencies
-# Add your project dependencies here
+# Python dependencies for 2526_B3_S6_Projet
+# 
+# Minimum Python version: 3.7
+#
+# This project uses only standard library modules.
+# No external dependencies are required for basic functionality.
+#
+# For development and testing, you may want to install:
+# - pytest (for advanced testing)
+# - black (for code formatting)
+# - pylint (for code analysis)

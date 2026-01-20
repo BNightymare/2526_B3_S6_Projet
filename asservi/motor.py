@@ -17,7 +17,7 @@ class Motor:
         pid (PIDController): Contrôleur PID associé
     """
     
-    def __init__(self, name="Motor", kp=1.0, ki=0.0, kd=0.0):
+    def __init__(self, name="Motor", kp=1.0, ki=0.0, kd=0.0, output_limits=(-100.0, 100.0)):
         """
         Initialise un moteur avec son contrôleur PID.
         
@@ -26,6 +26,7 @@ class Motor:
             kp (float): Gain proportionnel du PID (défaut: 1.0)
             ki (float): Gain intégral du PID (défaut: 0.0)
             kd (float): Gain dérivé du PID (défaut: 0.0)
+            output_limits (tuple): Limites de puissance (min, max) (défaut: (-100.0, 100.0))
         """
         self.name = name
         self.pid = PIDController(kp, ki, kd)
@@ -35,7 +36,7 @@ class Motor:
         self._current_speed = 0.0
         self._power = 0.0
         
-        self.pid.set_output_limits(-100.0, 100.0)
+        self.pid.set_output_limits(output_limits[0], output_limits[1])
     
     def set_target(self, position):
         """
