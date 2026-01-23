@@ -2,6 +2,8 @@
 | Composant | Rôle | Datasheet |
 | :--- | :--- | :--- |
 | Raspberry Pi 0 2W | Cerveau du robot. C'est lui qui donne les ordres aux composants via Python | https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/ |
+| TMC2225 | Contrôle les moteurs pas à pas qui servent de roues au robot. | https://www.analog.com/media/en/technical-documentation/data-sheets/TMC2225_datasheet_rev1.14.pdf |
+| MCP3208 | Interface entre les capteurs analogique et la Raspberry Pi. Permet de mesurer la distance des obstacles via les capteurs infrarouges sur les 8 canneaux. | https://ww1.microchip.com/downloads/en/DeviceDoc/21298E.pdf 
 
 # **20/01 Initialisation et Cahier des charges**
 ## Diagramme de Gant et Attribution des tâches
