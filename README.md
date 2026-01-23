@@ -5,6 +5,13 @@ Pour chaque composants (LMS6DSOX, TMC2225, MCP3208), faire :
 - Routage
 
 ---
+## 1.0. Datasheet - 20/01
+- Clara : [Datasheet du LMS6DSOX](https://github.com/user-attachments/files/24759821/Datasheet.LSM6DSOX.pdf)
+
+- Lucie : [Datasheet du TMC2225](https://github.com/user-attachments/files/24759853/TMC2225_datasheet_rev1.14.pdf)
+
+- Samir : [Datasheet du MCP3208](https://github.com/user-attachments/files/24759876/MCP3208.pdf)
+---
 ## 1.1. Schéma - 20/01 au 21/01
 
 - Clara: Schéma du [LMS6DSOX](https://github.com/BNightymare/2526_B3_S6_Projet/tree/1.-PCB/Projet%206%20KICAD%20LSM6DSOX)
