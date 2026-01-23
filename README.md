@@ -6,7 +6,7 @@
 | MCP3208 | Interface entre les capteurs analogique et la Raspberry Pi. Permet de mesurer la distance des obstacles via les capteurs infrarouges sur les 8 canneaux. | https://ww1.microchip.com/downloads/en/DeviceDoc/21298E.pdf 
 
 # **20/01 Initialisation et Cahier des charges**
-## Diagramme de Gant et Attribution des tâches
+## Diagramme de Gant et Attribution des tâches  
 #### Cahier des charges: Prise en main du projet pour définir les fonctionnalités du robot et les tâches à réaliser;
 #### Gestion de Projet: 
 ##### -Planning: Création d'un diagramme de Gant pour visualiser les étapes de conceptions du projet ainsi que la programmatiçon dans le temps;
