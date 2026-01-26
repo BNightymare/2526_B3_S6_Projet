@@ -4797,7 +4797,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0109872d-9d55-4567-8e9d-4a2df819e68e")
 		(property "Reference" "D4"
 			(at 105.41 174.3074 90)
@@ -4808,8 +4807,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
-			(at 105.41 176.8474 90)
+		(property "Value" "GREEN LED"
+			(at 98.298 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4846,6 +4845,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 101.6 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "150060GS55040"
+			(at 101.6 173.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4894,7 +4902,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 40.64 125.73 0)
 			(effects
 				(font
@@ -4914,6 +4922,15 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 40.64 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "885012206071"
+			(at 40.64 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5989,7 +6006,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 57.15 170.18 0)
 			(effects
 				(font
@@ -6008,6 +6025,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 57.15 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "885012206071"
 			(at 57.15 170.18 0)
 			(effects
 				(font
@@ -7111,7 +7137,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "cf651359-fbb5-4208-910b-902296437032")
 		(property "Reference" "D3"
 			(at 92.71 174.3074 90)
@@ -7122,8 +7147,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
-			(at 92.71 176.8474 90)
+		(property "Value" "GREEN LED"
+			(at 84.836 167.386 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7160,6 +7185,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 88.9 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "150060GS55040"
+			(at 88.9 173.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
