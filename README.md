@@ -45,5 +45,7 @@ Le groupe s'est répartie l'étude des trois composants. Pour chaque composant, 
 Clara : [Schéma complet KiCad](https://github.com/BNightymare/2526_B3_S6_Projet/tree/1.-PCB/Projet%206%20KICAD%20CLS%20COMPLET)
 
 ---
-# 23/01 - [1. PCB](https://github.com/BNightymare/2526_B3_S6_Projet/tree/1.-PCB) : Routage Kicad
+# 23/01-26/01 - [1. PCB](https://github.com/BNightymare/2526_B3_S6_Projet/tree/1.-PCB) : Routage Kicad
 - Clara : Routage du PCB Complet
+- Lucie : Mise à jour de la documentation
+- Samir
