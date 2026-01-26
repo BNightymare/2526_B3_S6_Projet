@@ -16,10 +16,10 @@ Voici les principaux composants du robot:
 **Github**
 Création du dépot Github et mise en place de l'arborescence du projet.
 
-**Diagramme de Gantt**
+**Diagramme de Gantt:**
 Création d'un diagramme de Gant pour visualiser les étapes de conceptions du projet ainsi que la programmation dans le temps.
 
-**Répartition des tâches**
+**Répartition des tâches:**
 Le groupe s'est répartie l'étude des trois composants. Pour chaque composant, nous avons analysé la datasheet afin d'extraire les caractéristiques électriques (tensions, courants, pin...) nécessaire à la conception du schéma Kicad.
 
 - Datasheet
