@@ -522,7 +522,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "projet_6_fab/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
