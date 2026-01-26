@@ -144,167 +144,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:C_Polarized"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_Polarized"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Polarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "CP_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_Polarized_0_1"
-				(rectangle
-					(start -2.286 0.508)
-					(end 2.286 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 2.286) (xy -0.762 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.794) (xy -1.27 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.286 -0.508)
-					(end -2.286 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "C_Polarized_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:LED"
 			(pin_numbers
 				(hide yes)
@@ -1589,7 +1428,7 @@
 		(at 172.72 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "803a927a-0dd1-4927-b29e-5dd68aee694b")
+		(uuid "84cec427-38d4-4b02-845e-9e214ea1d6ae")
 	)
 	(junction
 		(at 85.09 85.09)
@@ -1759,16 +1598,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 66.04) (xy 172.72 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23cdf5ea-6b67-4a78-b310-ec2712b0a239")
-	)
-	(wire
-		(pts
 			(xy 119.38 80.01) (xy 106.68 80.01)
 		)
 		(stroke
@@ -1789,7 +1618,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 67.31) (xy 177.8 66.04)
+			(xy 172.72 67.31) (xy 172.72 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1866,6 +1695,16 @@
 			(type default)
 		)
 		(uuid "46d654af-5d36-4c5c-9e33-d38b874ecb1a")
+	)
+	(wire
+		(pts
+			(xy 172.72 58.42) (xy 172.72 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bd25c9c-c0a8-446d-9d3f-675b9de09639")
 	)
 	(wire
 		(pts
@@ -2269,7 +2108,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 66.04) (xy 172.72 66.04)
+			(xy 158.75 66.04) (xy 172.72 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2399,7 +2238,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:HTSSOP-28-1EP_4.4x9.7mm_P0.65mm_EP2.85x5.4mm_ThermalVias"
 			(at 137.16 90.17 0)
 			(effects
 				(font
@@ -2549,7 +2388,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 93.472 80.01 90)
 			(effects
 				(font
@@ -2937,7 +2776,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 160.9852 118.11 0)
 			(effects
 				(font
@@ -3109,7 +2948,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 177.8 67.31 0)
+		(at 172.72 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3118,7 +2957,7 @@
 		(fields_autoplaced yes)
 		(uuid "607acd1e-c41f-44d0-9963-744c7df8181e")
 		(property "Reference" "#PWR058"
-			(at 177.8 73.66 0)
+			(at 172.72 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3127,7 +2966,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 177.8 72.39 0)
+			(at 172.72 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3135,7 +2974,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 67.31 0)
+			(at 172.72 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3144,7 +2983,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 67.31 0)
+			(at 172.72 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3153,7 +2992,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 177.8 67.31 0)
+			(at 172.72 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3197,7 +3036,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 99.3648 102.87 0)
 			(effects
 				(font
@@ -3264,7 +3103,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 162.56 84.328 90)
 			(effects
 				(font
@@ -3332,7 +3171,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 107.6452 105.41 0)
 			(effects
 				(font
@@ -3467,7 +3306,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 83.312 91.44 90)
 			(effects
 				(font
@@ -3509,76 +3348,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 172.72 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ab62e377-640d-40c1-842d-d19eb59eb754")
-		(property "Reference" "C21"
-			(at 176.53 60.0709 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100u"
-			(at 176.53 62.6109 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 173.6852 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 172.72 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 172.72 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fabdd2c7-3a1c-469a-85b8-e3d7765e2b29")
-		)
-		(pin "2"
-			(uuid "d4d9d944-644f-4ce6-a4d3-84d15a9bf9c7")
-		)
-		(instances
-			(project "Projet 6 KICAD CLS COMPLET"
-				(path "/917aa03c-3980-4eba-8700-b55c1cb55f0b/a5695271-11ee-4737-bea3-63f27449d81d"
-					(reference "C21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 144.78 62.23 0)
 		(unit 1)
@@ -3603,7 +3372,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 145.7452 66.04 0)
 			(effects
 				(font
@@ -3864,7 +3633,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 159.7152 66.04 0)
 			(effects
 				(font
@@ -3933,7 +3702,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 83.312 80.01 90)
 			(effects
 				(font
@@ -3999,7 +3768,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 163.83 102.362 90)
 			(effects
 				(font
@@ -4065,7 +3834,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 172.72 104.14 0)
 			(effects
 				(font
@@ -4141,7 +3910,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 163.83 94.742 90)
 			(effects
 				(font
@@ -4207,7 +3976,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 125.4252 66.04 0)
 			(effects
 				(font
@@ -4276,7 +4045,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 93.472 91.44 90)
 			(effects
 				(font
