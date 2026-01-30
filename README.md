@@ -1,4 +1,9 @@
 # 2526_B3_S6_Projet
+# 🤖 Projet Robot Suiveur de ligne
+
+![KiCad](https://img.shields.io/badge/Design-KiCad-blue?style=for-the-badge&logo=kicad)
+![Raspberry Pi](https://img.shields.io/badge/Hardware-Raspberry_Pi-red?style=for-the-badge&logo=raspberry-pi)
+![Python](https://img.shields.io/badge/Code-Python-yellow?style=for-the-badge&logo=python)
 
 ---
 # 20/01 - Initialisation
