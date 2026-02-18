@@ -55,5 +55,7 @@ Clara : [Schéma complet KiCad](https://github.com/BNightymare/2526_B3_S6_Projet
 - Lucie : Mise à jour de la documentation
 - Samir et Lucie : Recherche des composants et attribution des MPN.
 
-# 17/02 - [1. PCB]
--Samir et Lucie : soudure du pcb.
+---
+# 17/02- [3. Intégration mécanique]([https://github.com/BNightymare/2526_B3_S6_Projet/tree/1.-PCB](https://github.com/BNightymare/2526_B3_S6_Projet/tree/3.-Int%C3%A9gration-m%C3%A9canique) : 3D et soudure
+- Clara : Refaire et imprimer robots
+- Samir et Lucie : Soudure des composants sur la carte
