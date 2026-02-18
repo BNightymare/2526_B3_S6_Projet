@@ -54,3 +54,6 @@ Clara : [Schéma complet KiCad](https://github.com/BNightymare/2526_B3_S6_Projet
 - Clara : Routage du PCB Complet
 - Lucie : Mise à jour de la documentation
 - Samir et Lucie : Recherche des composants et attribution des MPN.
+
+# 17/02 - [1. PCB]
+-Samir et Lucie : soudure du pcb.
