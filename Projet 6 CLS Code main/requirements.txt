@@ -1,0 +1,15 @@
+# Dépendances Python pour le Robot Suiveur de Ligne
+# Installation: pip3 install -r requirements.txt
+
+# GPIO pour Raspberry Pi
+RPi.GPIO>=0.7.1
+
+# SPI pour le capteur MCP3208
+spidev>=3.5
+
+# I2C pour l'IMU LSM6DSOX
+smbus2>=0.4.1
+
+# Utilitaires (optionnels)
+# numpy>=1.21.0  # Pour calculs avancés
+# matplotlib>=3.5.0  # Pour visualisation des données
