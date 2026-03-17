@@ -59,3 +59,8 @@ Clara : [Schéma complet KiCad](https://github.com/BNightymare/2526_B3_S6_Projet
 # 17/02- 3. Intégration mécanique : 3D et soudure
 - Clara : Refaire et imprimer support 3D
 - Samir et Lucie : Soudure des composants sur la carte
+
+---
+# 17/03:
+- Samir et Lucie: Code 
+- Clara: 3D
