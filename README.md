@@ -1,9 +1,74 @@
-# 2526_B3_S6_Projet
 # 🤖 Projet Robot Suiveur de ligne
+**Projet S6 · B3 · 2025–2026**
+
+*Un robot autonome de type Segway capable de suivre une ligne au sol, conçu de A à Z : PCB, mécanique 3D et code Python.*
 
 ![KiCad](https://img.shields.io/badge/Design-KiCad-blue?style=for-the-badge&logo=kicad)
 ![Raspberry Pi](https://img.shields.io/badge/Hardware-Raspberry_Pi-red?style=for-the-badge&logo=raspberry-pi)
 ![Python](https://img.shields.io/badge/Code-Python-yellow?style=for-the-badge&logo=python)
+
+---
+# 📅 Journal de bord
+
+## 👥 Équipe
+
+| Membre | Rôles principaux |
+|--------|-----------------|
+| **Clara** | Schéma KiCad LMS6DSOX, routage, Gerber), Structure 3D (Onshape), Tests fonctionnels |
+| **Lucie** | Schéma KiCad TMC2225, Soudure, Code (IMU, moteurs, intégration) |
+| **Samir** | Schéma KiCad MCP3208, Soudure, Code (suiveur de ligne, intégration) |
+
+<br>
+
+## 🧩 Architecture matérielle
+ 
+| Composant | Rôle | Datasheet |
+|-----------|------|-----------|
+| **Raspberry Pi Zero 2W** | Cerveau du robot. C'est lui qui donne les ordres aux composants via Python | [📄 Datasheet](https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/) |
+| **LSM6DSOX** | IMU — Gyroscope & accéléromètre (I²C) | [📄 Datasheet](https://github.com/user-attachments/files/24759821/Datasheet.LSM6DSOX.pdf) |
+| **TMC2225** | Contrôle les moteurs pas à pas qui servent de roues au robot. | [📄 Datasheet](https://www.analog.com/media/en/technical-documentation/data-sheets/TMC2225_datasheet_rev1.14.pdf) |
+| **MCP3208** | Interface entre les capteurs analogique et la Raspberry Pi. Permet de mesurer la distance des obstacles via les capteurs infrarouges sur les 8 canneaux. | [📄 Datasheet](https://ww1.microchip.com/downloads/en/DeviceDoc/21298E.pdf) |
+
+<br>
+
+## Structure du dépot github
+📦 2526_B3_S6_Projet
+
+ ┣ 1. PCB/    → Schémas KiCad, routage, fichiers Gerber
+ 
+ ┣ 2. Code/   → Modules Python (IMU, moteurs, ligne)
+ 
+ ┣ 3. 3D/     → Fichiers Onshape / STL
+ 
+ ┗ 📄 README.md
+
+<br>
+
+## Avancement global
+| Etape | Avancée |
+| :--- | :--- |
+| PCB Design          | ████████████████████  100% ✅ |
+| Mise en service     | ████████████████████  100% ✅ |
+| Code Python         | █████░░░░░░░░░░░░░░░   40% 🔄 |
+| Intégration mécanique    | ████████████████░░░░   85% 🔄 |
+| Validation finale   | ██░░░░░░░░░░░░░░░░░░    20% 🔜 |
+
+<br>
+<br>
+
+---
+
+# 20/01/2026 — Lancement du projet
+> **Objectif :** Prise en main du projet pour définir les fonctionnalités du robot et les tâches à réaliser. 
+> Cadrage, répartition des tâches et prise en main des composants.
+ 
+**Tous :**
+- Lecture des datasheets et extraction des caractéristiques électriques clés (tensions, courants, pinouts)
+- Création du dépôt GitHub et mise en place de l'arborescence
+- Rédaction du diagramme de Gantt (planification des étapes)
+- Début des schémas KiCad individuels
+
+<br>
 
 ---
 # 20/01 - Initialisation
@@ -82,12 +147,4 @@ Clara : [Schéma complet KiCad](https://github.com/BNightymare/2526_B3_S6_Projet
 | Validation finale   | ██░░░░░░░░░░░░░░░░░░    20% 🔜 |
 
 ---
-# Structure du dépot github
-📦 2526_B3_S6_Projet
- ┣ 1. PCB/    → Schémas KiCad, routage, fichiers Gerber
- 
- ┣ 2. Code/   → Modules Python (IMU, moteurs, ligne)
- 
- ┣ 3. 3D/     → Fichiers Onshape / STL
- 
- ┗ 📄 README.md
+
