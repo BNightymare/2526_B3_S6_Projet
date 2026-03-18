@@ -1,7 +1,7 @@
-from motor.driver import TMC2225, GPIO
+from motor_driver import TMC2225, GPIO
 import time
 
-from motor.config import (MOTOR1_STEP_PIN, MOTOR1_DIR_PIN, MOTOR1_SPEED_RPM, MOTOR1_DIRECTION,
+from motor_config import (MOTOR1_STEP_PIN, MOTOR1_DIR_PIN, MOTOR1_SPEED_RPM, MOTOR1_DIRECTION,
                           MOTOR2_STEP_PIN, MOTOR2_DIR_PIN, MOTOR2_SPEED_RPM, MOTOR2_DIRECTION)
 
 if __name__ == "__main__":
