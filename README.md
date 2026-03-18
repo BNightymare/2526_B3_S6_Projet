@@ -73,11 +73,13 @@ Clara : [Schéma complet KiCad](https://github.com/BNightymare/2526_B3_S6_Projet
 
 ---
 # Avancement global
-PCB Design          ████████████████████  100% ✅
-Mise en service     ████████████████████  100% ✅
-Code Python         ████████████████░░░░   80% 🔄
-Intégration méca    ████████████████░░░░   85% 🔄
-Validation finale   ░░░░░░░░░░░░░░░░░░░░    0% 🔜
+| Etape | Avancée |
+| :--- | :--- |
+| PCB Design          | ████████████████████  100% ✅ |
+| Mise en service     | ████████████████████  100% ✅ |
+| Code Python         | █████░░░░░░░░░░░░░░░   40% 🔄 |
+| Intégration mécanique    | ████████████████░░░░   85% 🔄 |
+| Validation finale   | ██░░░░░░░░░░░░░░░░░░    20% 🔜 |
 
 ---
 # Structure du dépot github
