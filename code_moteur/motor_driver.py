@@ -1,8 +1,8 @@
 import RPi.GPIO as GPIO
 import time
-from .motor_config import (DEFAULT_SPEED_RPM, DEFAULT_STEPS_PER_REV, DEFAULT_MICROSTEP,
+from motor_config import (DEFAULT_SPEED_RPM, DEFAULT_STEPS_PER_REV, DEFAULT_MICROSTEP,
                      DIRECTION_FORWARD, DIRECTION_BACKWARD)
-from .motor_utils import angle_to_steps
+from motor_utils import angle_to_steps
 
 class TMC2225:
     
