@@ -1,4 +1,4 @@
-from gpiozero import DigitalOutputDevice
+import RPI.GPIO as GPIO
 import time
 from .config import (DEFAULT_SPEED_RPM, DEFAULT_STEPS_PER_REV, DEFAULT_MICROSTEP,
                      DEGREES_PER_CIRCLE, DIRECTION_FORWARD, DIRECTION_BACKWARD)
