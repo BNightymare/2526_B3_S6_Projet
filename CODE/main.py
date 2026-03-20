@@ -35,8 +35,8 @@ except ModuleNotFoundError:
     GPIO = _MockGPIO()
     print("[WARN] RPi.GPIO introuvable (hors Raspberry Pi) : mode simulation GPIO activé.")
 
-from sensors.MCP3208 import MCP3208
-from sensors.line_detector import get_line_error
+from code_sl.MCP3208 import MCP3208
+from code_sl.line_detector import get_line_error
 from motor.motor_controller import DualMotorController
 from motor.motor_config import (
     MOTOR1_STEP_PIN, MOTOR1_DIR_PIN, MOTOR1_DIRECTION,
