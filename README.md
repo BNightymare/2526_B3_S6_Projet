@@ -133,7 +133,7 @@ Clara : [Schéma complet KiCad](https://github.com/BNightymare/2526_B3_S6_Projet
 
 ---
 # 17/03:
-- Samir et Lucie: Code 
+- Samir et Lucie: Code (Nous avons réussi à faire fonctionner le TMC2225 et le MCP3208 mais nous rencontrons des problèmes avec les moteurs.)
 - Clara: 3D
 
 ---
