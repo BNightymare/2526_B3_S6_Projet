@@ -16,7 +16,7 @@
 |--------|-----------------|
 | **Clara** | Schéma KiCad LMS6DSOX, routage, Gerber), Structure 3D (Onshape), Tests fonctionnels, Code |
 | **Lucie** | Schéma KiCad TMC2225, Soudure, Code (IMU, moteurs, intégration) |
-| **Samir** | Schéma KiCad MCP3208, Soudure, Code (suiveur de ligne, intégration) |
+| **Samir** | Schéma KiCad MCP3208, Sertissage, Soudure, Code (suiveur de ligne, intégration) |
 
 <br>
 
@@ -127,11 +127,13 @@ Clara : [Schéma complet KiCad](https://github.com/BNightymare/2526_B3_S6_Projet
 ---
 # 17/03:
 - Samir et Lucie: Code (Nous avons réussi à faire fonctionner le TMC2225 et le MCP3208 mais nous rencontrons des problèmes avec les moteurs.)
+- Samir: Sertissage
 - Clara: 3D
 
 ---
 # 18/03:
-- Samir et Lucie: Code 
+- Samir et Lucie: Code
+- Samir: Sertissage
 - Clara: 3D + Code
 
 Nous avions un problème de contact avec les batteries, ce qui causait notre problème avec les moteurs.
