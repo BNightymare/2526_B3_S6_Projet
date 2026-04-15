@@ -174,7 +174,7 @@ Nous avions un problème de contact avec les batteries, ce qui causait notre pro
 
 ---
 # 15/04:
-- Samir et Lucie: Code
+- Samir et Lucie: Code et Canva
 - Samir: Sertissage
 
 ---
