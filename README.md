@@ -112,9 +112,9 @@ Clara : [Schéma complet KiCad](https://github.com/BNightymare/2526_B3_S6_Projet
 # 23/01-26/01 - [1. PCB](https://github.com/BNightymare/2526_B3_S6_Projet/tree/1.-PCB) : Routage Kicad
 > Routage du PCB, attribution des références MPN, génération des fichiers de fabrication.
 
-- Clara : Routage du PCB Complet
+- Clara : Routage du PCB Complet et attribution des MPN
 - Lucie : Mise à jour de la documentation
-- Samir et Lucie : Recherche des composants et attribution des MPN.
+- Samir et Lucie : Recherche des composants
 
 ---
 # 17/02- 3. Intégration mécanique : 3D et soudure
