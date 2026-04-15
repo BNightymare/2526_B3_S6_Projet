@@ -44,14 +44,7 @@
 
 <br>
 
-## Avancement global
-| Etape | Avancée |
-| :--- | :--- |
-| PCB Design          | ████████████████████  100% ✅ |
-| Mise en service     | ████████████████████  100% ✅ |
-| Code Python         | █████░░░░░░░░░░░░░░░   40% 🔄 |
-| Intégration mécanique    | ████████████████░░░░   85% 🔄 |
-| Validation finale   | ██░░░░░░░░░░░░░░░░░░    20% 🔜 |
+
 
 <br>
 <br>
