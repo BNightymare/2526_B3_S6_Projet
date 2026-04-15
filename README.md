@@ -150,7 +150,7 @@ Clara : [Schéma complet KiCad](https://github.com/BNightymare/2526_B3_S6_Projet
 # 18/03:
 - Samir et Lucie: Code
 - Samir: Sertissage
-- Clara: 3D + Code
+- Clara: 3D 
 
 ---
 # 19/03:
