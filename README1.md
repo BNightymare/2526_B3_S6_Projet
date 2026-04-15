@@ -67,8 +67,10 @@ Clara : [Schéma complet KiCad](https://github.com/BNightymare/2526_B3_S6_Projet
 
 - Clara : Refaire et imprimer support 3D
 - Samir et Lucie : Soudure des composants sur la carte
+- Samir: Sertissage
 
 ---
 # 17/03:
-- Samir et Lucie: Code 
+- Samir et Lucie: Code
+- Samir: Sertissage
 - Clara: 3D
