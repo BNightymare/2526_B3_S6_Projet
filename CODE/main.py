@@ -47,7 +47,7 @@ from motor.motor_config import (
     ALPHA, OUTPUT_BETA, IMU_AXIS, ANGLE_OFFSET, DEADBAND_DEG,
     LINE_THRESHOLD, SEARCH_SPEED_RPM, FALL_ANGLE,
 )
-from control.pid import PID
+# from control.pid import PID
 from control.balance_controller import BalanceController
 
 # ── Configuration boucle ───────────────────────────────────────────────────────
