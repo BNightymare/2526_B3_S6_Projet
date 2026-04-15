@@ -125,6 +125,22 @@ Clara : [Schéma complet KiCad](https://github.com/BNightymare/2526_B3_S6_Projet
 - Samir et Lucie : Soudure des composants sur la carte
 
 ---
+# 18/02:
+- Samir et Lucie: Code (Nous avons réussi à faire fonctionner le TMC2225 et le MCP3208 mais nous rencontrons des problèmes avec les moteurs.)
+- Samir: Sertissage
+- Clara: 3D
+
+---
+# 19/02:
+- Samir et Lucie: Code (Nous avons réussi à faire fonctionner le TMC2225 et le MCP3208 mais nous rencontrons des problèmes avec les moteurs.)
+- Clara: 3D
+
+---
+# 20/02:
+- Samir et Lucie: Code (Nous avons réussi à faire fonctionner le TMC2225 et le MCP3208 mais nous rencontrons des problèmes avec les moteurs.)
+- Clara: 3D
+
+---
 # 17/03:
 - Samir et Lucie: Code (Nous avons réussi à faire fonctionner le TMC2225 et le MCP3208 mais nous rencontrons des problèmes avec les moteurs.)
 - Samir: Sertissage
@@ -136,7 +152,30 @@ Clara : [Schéma complet KiCad](https://github.com/BNightymare/2526_B3_S6_Projet
 - Samir: Sertissage
 - Clara: 3D + Code
 
+---
+# 19/03:
+- Samir et Lucie: Code
+- Samir: Sertissage
+- Clara: 3D
+
+---
+# 20/03:
+- Samir et Lucie: Code
+- Samir: Sertissage
+- Clara: 3D
+
 Nous avions un problème de contact avec les batteries, ce qui causait notre problème avec les moteurs.
+
+---
+# 14/04:
+- Samir et Lucie: Code
+- Lucie: Canva
+- Samir: Sertissage
+
+---
+# 15/04:
+- Samir et Lucie: Code
+- Samir: Sertissage
 
 ---
 # Avancement global
