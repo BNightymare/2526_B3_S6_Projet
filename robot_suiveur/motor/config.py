@@ -39,7 +39,7 @@ ALPHA: float = 0.98
 
 # Axe utilisé pour le tangage (pitch) : 'X' ou 'Y'
 # Si le robot oscille sur l'axe X de l'IMU, mettre 'X'.
-IMU_AXIS: str = 'X'
+IMU_AXIS: str = 'Y'
 
 # Filtre EMA de sortie sur l'angle IMU (attenuation vibrations steppers)
 OUTPUT_BETA: float = 0.5
