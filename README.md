@@ -15,8 +15,8 @@
 | Membre | Rôles principaux |
 |--------|-----------------|
 | **Clara** | Schéma KiCad LMS6DSOX, routage, Gerber), Structure 3D (Onshape), Tests fonctionnels, Code |
-| **Lucie** | Schéma KiCad TMC2225, Soudure, Code (IMU, moteurs, intégration) |
-| **Samir** | Schéma KiCad MCP3208, Sertissage, Soudure, Code (suiveur de ligne, intégration) |
+| **Lucie** | Schéma KiCad TMC2225, Soudure, routage, Code (IMU, moteurs, intégration) |
+| **Samir** | Schéma KiCad MCP3208, Sertissage, Soudure, routage, Code (suiveur de ligne, intégration) |
 
 <br>
 
