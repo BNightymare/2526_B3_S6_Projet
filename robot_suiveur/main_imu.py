@@ -1,12 +1,4 @@
-"""Robot suiveur - Maintien de l'équilibre Multithreading.
 
-Ce script :
-- Initialise les moteurs via pigpio
-- Initialise l'IMU
-- Utilise deux Threads séparés pour de hautes performances :
-  1. Thread IMU : Lit l'IMU à 200Hz, applique les filtres (Passe-bas + Complémentaire).
-  2. Thread PID : Calcule l'erreur à 100Hz et met à jour la vitesse des moteurs, garanti sans lag.
-"""
 
 from __future__ import annotations
 
