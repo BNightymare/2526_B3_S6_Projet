@@ -171,11 +171,17 @@ Nous avions un problème de contact avec les batteries, ce qui causait notre pro
 - Samir et Lucie: Code
 - Lucie: Canva
 - Samir: Sertissage
+- Clara : Code
 
 ---
 # 15/04:
 - Samir et Lucie: Code et Canva
 - Samir: Sertissage
+- Clara : Canva et code
+
+---
+# 17/04:
+Soutenance finale
 
 ---
 # Avancement global
