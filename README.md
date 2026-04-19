@@ -188,9 +188,9 @@ Soutenance finale
 | :--- | :--- |
 | PCB Design          | ████████████████████  100% ✅ |
 | Mise en service     | ████████████████████  100% ✅ |
-| Code Python         | █████░░░░░░░░░░░░░░░   40% 🔄 |
-| Intégration mécanique    | ████████████████░░░░   85% 🔄 |
-| Validation finale   | ██░░░░░░░░░░░░░░░░░░    20% 🔜 |
+| Code Python         | ██████████░░░░░░░░░░   50% 🔄 |
+| Intégration mécanique    | ████████████████████  100% ✅ |
+| Validation finale   | ████████████████████  100% ✅ |
 
 ---
 
